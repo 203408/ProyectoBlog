@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: whitesmoke;
+    font-family: Arial;
+}
+
+header {
+    background: greenyellow;
+    width: 100%;
+    height: 100px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 5px;
+}
+
+
+#encabezado {
+    width: 85%;
+    height: 35px;
+    margin: auto;
+    border: 0px solid black;
+
+}
+
+#logo {
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    color: blue;
+    font-size: 30px;
+    margin-top: 57px;
+}
+
+#menu {
+    width: 67%;
+    height: 30px;
+    float: right;
+    border: 0px solid blue;
+    margin-top: 55px;
+}
+
+#menu ul{}
+
+#menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#menu ul li .enlace {
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#menu ul li .enlace:hover {
+    background: silver;
+    color: red;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#menu ul li .activate-menu {
+    background: silver;
+    color: red;
+    border-radius: 5px 5xp 0px 0px;
+    padding: 10px;
+}
+/*--------------parte principal--------------*/
+
+#principal {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    margin: 10px auto;
+}
+
+#publicaciones {
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid red;
+    margin-top: 10px;
+    float: left;
+}
+
+.post {
+    width: 99%;
+    height: auto;
+    overflow: hidden;
+    padding: 7px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: purple;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.enlace-post {
+    text-decoration: none;
+}
+
+#publicaciones a .titulo-post {
+    color: purple;
+    font-size: 22px;
+    font-family: Arial;
+
+}
+
+#publicaciones a .titulo-post:hover {
+    text-decoration: underline;
+}    
+
+#publicaciones .img-post {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 7px 7px 7px 0px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#publicaciones .datos-publicaciones {
+    color: blue;
+}
+
+#publicaciones .parrafo-post {
+    font-family: Times New Roman;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+}
+
+#publicaciones .leer-mas {
+    background: red;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#publicaciones .leer-mas:hover {
+    background: white;
+    color: red;
+}
+
+#paginacion .enlace-paginacion {
+    text-decoration: none;
+    color: blue;
+}
+
+#paginacion .enlace-paginacion:hover {
+    text-decoration: underline;
+}
+
+#sidebar {
+    float: right;
+    width: 28%;
+    border: 0px solid;
+    height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#buscar, #categorias, #sitios-amigos, #ultimos-post {
+    border-radius: 10px;
+    width: 98%;
+    border: 1px solid #ccc;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.encabezado-sidebar {
+    width: 100%;
+    height: 35px;
+    background: blue;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: Times New Roman;
+}
+
+.enlace-sidebar {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 10px 5px;
+    color: black;
+}
+
+.enlace-sidebar:hover {
+    background: silver;
+}
